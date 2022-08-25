@@ -1,8 +1,5 @@
 version: "1"
 commands:
-  - name: appwizardcommand:0.2.0
+  - name: appwizard:0.2.0
     description: my app description
     run: node /ops/index.js
-    events:
-     - "github:CampbellBrett/appWizard:push:ref==main"
-    
