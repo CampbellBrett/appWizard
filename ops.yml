@@ -1,5 +1,5 @@
 version: "1"
 commands:
-  - name: appwizard:0.301.0
+  - name: appwizard:0.301.2
     description: my app description
     run: node /ops/index.js
