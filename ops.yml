@@ -1,5 +1,8 @@
 version: "1"
-commands:
-  - name: appwizard:0.19.4
+services:
+  - name: appwizard:0.19.07
     description: my app description
     run: node /ops/index.js
+    events:
+      - "github:CampbellBrett/appWizard:pull_request.opened"
+      - "github:CampbellBrett/appWizard:pull_request.synchronize"
